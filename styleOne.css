@@ -1,0 +1,11 @@
+body {
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    background: linear-gradient(to bottom right, #500000, #aaaaaa); /* Gradient from pink to orange */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
