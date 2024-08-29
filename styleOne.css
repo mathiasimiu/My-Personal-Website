@@ -1,15 +1,52 @@
 body {
     margin: 0; /* Remove default margin */
     height: 100vh; /* Ensure the body takes up the full viewport height */
-    background: linear-gradient(to bottom, #500000, #aaaaaa); /* Gradient from pink to orange */
+    background: linear-gradient(to top, #500000, #aaaaaa); /* Gradient from pink to orange */
     color: white;
     text-align: center;
 }
-h2{
-    font-family: 'Optima';
-    width: 150px;
-  height: 25px;
-  padding: 5px;
-  border: 5px solid black;
-  margin: 10px;
+
+
+.button {
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 16px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 0 9px #666;
 }
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+
+.button1:hover {
+  background-color: #500000;
+  color: white;
+}
+
+.button:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+
+.button2:hover {
+  background-color: #dad5b9;
+  color: white;
+}
+
