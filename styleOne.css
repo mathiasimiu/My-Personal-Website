@@ -1,18 +1,17 @@
 body {
     margin: 0; /* Remove default margin */
     height: 100vh; /* Ensure the body takes up the full viewport height */
-    background: linear-gradient(to top, #500000, #aaaaaa); /* Gradient from pink to orange */
+    background: linear-gradient(to top, #500000, #100000); /* Gradient from pink to orange */
     color: white;
     text-align: center;
 }
 
 
 .button {
-  border: none;
+  border: none; 
   color: rgb(255, 255, 255);
   padding: 16px 16px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 20px 10px;
