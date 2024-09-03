@@ -92,3 +92,10 @@ body {
   font-size: 20px
 }
 
+.footerOne{
+  text-align: center;
+  padding: 10px;
+  background-color: #500000;
+  color: white;
+  margin-top: 20px;
+}
