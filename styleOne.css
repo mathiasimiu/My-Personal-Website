@@ -1,11 +1,34 @@
 body {
     margin: 0; /* Remove default margin */
-    height: 100vh; /* Ensure the body takes up the full viewport height */
-    background: linear-gradient(to top, #500000, #100000); /* Gradient from pink to orange */
-    color: white;
     text-align: center;
 }
 
+.aboutMeHeader{
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-size: 45px;
+}
+
+.aboutMeParagraph{
+  text-align: left;
+  margin: 30px;
+  font-size: 25px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.italyImgWrap{
+  float: right;
+  margin: 10px;
+}
+
+.tetrisImgWrap{
+  float: right;
+  margin: 30px;
+}
 
 .button {
   border: none; 
@@ -13,11 +36,19 @@ body {
   padding: 16px 16px;
   text-align: center;
   display: inline-block;
-  font-size: 16px;
+  font-size: 30px;
   margin: 20px 10px;
   transition-duration: 0.4s;
   cursor: pointer;
   box-shadow: 0 9px #666;
+}
+
+.shell-one{
+  width: 100px;
+  height: 50px;
+  background-image: url(/shell-one.png);
+  border: none;
+  cursor: pointer;
 }
 
 .button1 {
@@ -47,5 +78,17 @@ body {
 .button2:hover {
   background-color: #dad5b9;
   color: white;
+}
+
+.projectHeader{
+  text-align: center;
+  margin-left: 30px;
+  font-size: 35px;
+}
+
+.project1Paragraph{
+  text-align: left;
+  margin: 40px;
+  font-size: 20px
 }
 
