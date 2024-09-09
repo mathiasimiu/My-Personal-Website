@@ -6,7 +6,7 @@ body {
 
 .aboutMeHeader{
   text-align: left;
-  margin-top: px;
+  margin-top: 40px;
   margin-left: 40px;
   margin-right: 40px;
   font-size: 45px;
@@ -117,6 +117,7 @@ body {
   background-color: #500000;
   color: white;
   margin-top: 20px;
+  position:fixed;bottom:0;left:0;right:0;
 }
 
 .headerOne{
