@@ -15,6 +15,43 @@ body {
   color:#500000
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  transform: translateY(4px);
+  transition-duration: 0.3s;
+}
+
+.fa-instagram{
+  background: #E1306C;
+  color: white;
+  border-radius: 20px;
+}
+
+.fa-linkedin{
+  background: #0077B5;
+  color: white;
+  border-radius: 20px;
+}
+
+.fa-github{
+  background: #000000;
+  color: white;
+  border-radius: 20px;
+}
+
+.fa-envelope{
+  background: #08851b;
+  color: white;
+  border-radius: 20px;
+}
+
 .qualificationsHeader{
   text-align: center;
   color: #500000;
@@ -59,14 +96,6 @@ body {
   transition-duration: 0.2s;
   cursor: pointer;
   box-shadow: 0 9px #666;
-}
-
-.shell-one{
-  width: 100px;
-  height: 50px;
-  background-image: url(/shell-one.png);
-  border: none;
-  cursor: pointer;
 }
 
 .button1 {
