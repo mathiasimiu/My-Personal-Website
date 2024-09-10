@@ -71,12 +71,14 @@ body {
 
 .qsLi{
   font-size: 20px;
+  margin-right: 70px;
 }
 
 .qualificationsParagraph{
   font-size: 20px;
   text-align: left;
-  margin-left: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .serviceHeader{
@@ -91,6 +93,7 @@ body {
   text-align: left;
   font-size: 20px;
   margin-left: 70px;
+  margin-right: 70px;
 }
 
 .aboutMeParagraph{
