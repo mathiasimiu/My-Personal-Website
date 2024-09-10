@@ -52,6 +52,11 @@ body {
   border-radius: 20px;
 }
 
+.fa-phone{
+  background: #128c7e;
+  color: white;
+  border-radius: 20px;
+}
 .qualificationsHeader{
   text-align: left;
   color: #500000;
