@@ -57,6 +57,13 @@ body {
   color: white;
   border-radius: 20px;
 }
+
+.fa-dashcube{
+  background: #5865F2;
+  color: white;
+  border-radius: 20px;
+}
+
 .qualificationsHeader{
   text-align: left;
   color: #500000;
