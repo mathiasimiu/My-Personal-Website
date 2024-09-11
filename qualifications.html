@@ -2,27 +2,40 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styleOne.css">
+    <link  id="theme-link" rel="stylesheet" href="styleTwo.css">
     <title>Mathias Miu - Qualifications</title>
     <link rel="icon" type="image/x-icon" href="statelogo.png">
 </head>
 <body>
 
-    <header class="headerOne">
+    <div class = "containers">
+    <div class="hamburgerButton" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
 
-        <button class="button button1" onclick="window.location.href = 'index.html';">Mathias Miu</button>
-        <button class="button button2" onclick="window.location.href = 'techPortfolio.html';">Technical Portfolio</button>
-        <button class="button button1" onclick="window.location.href = 'qualifications.html';">Qualifications</button>
-        <button class="button button2" onclick="window.location.href = 'service.html';">Service</button>
-        <button class="button button1" onclick="window.location.href = 'AI.html';">A.I.</button>
+        <header class="headerOne" style="width: 100%;">
+            <button class="button button1" onclick="window.location.href = 'index.html';" style="display: inline-block;">Mathias Miu</button>
+            <button class="button button2" onclick="window.location.href = 'techPortfolio.html';" style="display: inline-block;">Technical Portfolio</button>
+            <button class="button button1" onclick="window.location.href = 'qualifications.html';" style="display: inline-block;">Qualifications</button>
+            <button class="button button2" onclick="window.location.href = 'service.html';" style="display: inline-block;">Service</button>
+            <button class="button button1" onclick="window.location.href = 'AI.html';" style="display: inline-block;">A.I.</button>
+            <button class="button button1" id="theme-toggle-btn" style="display: inline-block;">Switch Theme</button>
+        </header>
+      </div>
+      
+      <script>
+      function myFunction(x) {
+        x.classList.toggle("change"); 
+      }
+      </script>
 
-    </header>
 
-
+<script src="styleSelector.js"></script>
 
 <h1 class="qualificationsHeader">Resume</h1>
 
-<a target="_blank" href="Miu_Mathias.pdf"><img src="Miu_Mathias.jpg" height="1400px"></a>
+<a target="_blank" href="Miu_Mathias.pdf"><img src="Miu_Mathias.jpg" height="1200px"></a>
 
 
 <h1 class="qualificationsHeader">Skills</h1>
@@ -71,7 +84,7 @@
                 <br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>AI.</strong> Do I really need to say more to be honest? Creating a neural network that allows the computer to think for itself and learn from mistakes like the brain that is currently reading this is absolutely mind blowing as a concept is becoming a reality more and more. AI is going to power the future and allow the already incredibly rapid pace of technical evolution increase even more. While AI will be powerful and allow for mesmerizing things like creating photo realistic images/videos to being able to produce complete files such as the AI page on my website, I don't personally believe that it will "take over" as some may say. We as humans are who we are and go to where we are over these millions of years because we have had creative directive that only we can create. We think independently with no inputs from the world to tell us WHAT to think about at all time. Being able to have that creative aspect will always seperate us from AI and will, in my opinion, stop any robotic takeover of the world happen.
             </p>
-
+        </div>
 <footer class="footerOne">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

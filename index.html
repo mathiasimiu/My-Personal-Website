@@ -2,19 +2,38 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styleOne.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="theme-link" rel="stylesheet" href="styleOne.css">
     <title>Mathias Miu - Home</title>
     <link rel="icon" type="image/x-icon" href="statelogo.png">
 </head>
 <body>
 
-    <header class="headerOne">
-        <button class="button button1" onclick="window.location.href = 'index.html';">Mathias Miu</button>
-        <button class="button button2" onclick="window.location.href = 'techPortfolio.html';">Technical Portfolio</button>
-        <button class="button button1" onclick="window.location.href = 'qualifications.html';">Qualifications</button>
-        <button class="button button2" onclick="window.location.href = 'service.html';">Service</button>
-        <button class="button button1" onclick="window.location.href = 'AI.html';">A.I.</button>
-    </header>
+<div class = "containers">
+
+    <div class="hamburgerButton" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+
+        <header class="headerOne" style="width: 100%;">
+            <button class="button button1" onclick="window.location.href = 'index.html';" style="display: inline-block;">Mathias Miu</button>
+            <button class="button button2" onclick="window.location.href = 'techPortfolio.html';" style="display: inline-block;">Technical Portfolio</button>
+            <button class="button button1" onclick="window.location.href = 'qualifications.html';" style="display: inline-block;">Qualifications</button>
+            <button class="button button2" onclick="window.location.href = 'service.html';" style="display: inline-block;">Service</button>
+            <button class="button button1" onclick="window.location.href = 'AI.html';" style="display: inline-block;">A.I.</button>
+            <button class="button button1" id="theme-toggle-btn" style="display: inline;">Switch Theme</button>
+        </header>
+
+      </div>
+      
+      <script>
+      function myFunction(x) {
+        x.classList.toggle("change"); 
+      }
+      </script>
+
+<script src="styleSelector.js"></script>
 
     <h1 class="aboutMeHeader">About Me - Mathias Miu</h1>
 
@@ -46,7 +65,7 @@
             Then, I applied as computer science major to all the universities and landed at my dream school at Texas A&M as a Computer Science Major! 
         </p>
     </div>
-    
+</div>
     <footer class="footerOne">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
