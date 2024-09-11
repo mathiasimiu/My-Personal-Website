@@ -179,6 +179,7 @@ body {
   font-size: 35px;
   color: #000000;
   border-bottom:solid #000000;
+  text-decoration: none;
 }
 
 .project1Paragraph{
@@ -219,32 +220,86 @@ body {
 }
 
 .hamburgerButton {
-    display: block;
-    cursor: pointer;
+display: block;
+cursor: pointer;
+}
 
-  }
-  
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
-  .change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
-  }
-  
-  .change .bar2 {
-    opacity: 0;
-  }
-  
-  .change .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
-  }
+.topBun, .meat, .bottomBun {
+width: 35px;
+height: 5px;
+background-color: #333;
+margin: 6px 0;
+transition: 0.4s;
+}
 
-  .change .button{
-    display: inline-block;
-  }
+.change .topBun {
+transform: translate(0, 11px) rotate(-45deg);
+}
 
+.change .meat {
+opacity: 0;
+}
+
+.change .bottomBun {
+transform: translate(0, -11px) rotate(45deg);
+}
+
+.change .button{
+display: inline-block;
+}
+
+.AIbody {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+color: #333;
+margin: 0;
+padding: 0;
+}
+.AIheader {
+background-image:url(gold.avif);
+background-size: 100% 100%;
+color: white;
+padding: 20px 0;
+text-align: center;
+font-size: 24px;
+}
+.AIcontainer {
+max-width: 1000px;
+margin: 20px auto;
+padding: 20px;
+background-image:url(gold.avif);
+background-size: 100% 100%;
+box-shadow: 0 0 300px rgba(0, 0, 0, 1);
+}
+.AIh1, .AIh2 {
+color: #000000;
+}
+.AIp {
+line-height: 1.6;
+}
+.AIimg {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 20px 0;
+}
+.AIfooter {
+text-align: center;
+padding: 10px;
+background-image:url(gold.avif);
+background-size: 100% 100%;
+color: white;
+margin-top: 20px;
+}
+
+.AIheaderOne{
+display: none;
+text-align: center;
+padding: 10px;
+color: white;
+}
+
+.change .AIheaderOne{
+display: inline-block;
+border-bottom: 0;
+}

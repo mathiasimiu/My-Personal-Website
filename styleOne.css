@@ -177,6 +177,7 @@ body {
   font-size: 35px;
   color: #500000;
   border-bottom:solid #000000;
+  text-decoration: none;
 }
 
 .project1Paragraph{
@@ -200,4 +201,51 @@ body {
   background-color: #500000;
   color: white;
   border-bottom: 5px solid #000000;
+}
+
+.AIbody {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.AIheader {
+  background-color: #500000;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 24px;
+}
+.AIcontainer {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.AIh1, .AIh2 {
+  color: #500000;
+}
+.AIp {
+  line-height: 1.6;
+}
+.AIimg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+.AIfooter {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
+
+.AIheaderOne{
+  text-align: center;
+  padding: 10px;
+  color: white;
 }
