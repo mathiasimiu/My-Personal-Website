@@ -226,24 +226,19 @@ display: block;
 cursor: pointer;
 }
 
-.topBun, .meat, .bottomBun {
-width: 35px;
-height: 5px;
-background-color: #333;
-margin: 6px 0;
-transition: 0.4s;
+.circle{
+  width: 20px;
+  height: 20px;
+  background-color: #333;
+  border-radius: 50%;
+  transition: 0.4s;
+  opacity: 100;
 }
 
-.change .topBun {
-transform: translate(0, 11px) rotate(-45deg);
-}
-
-.change .meat {
-opacity: 0;
-}
-
-.change .bottomBun {
-transform: translate(0, -11px) rotate(45deg);
+.change .circle {
+  width: 35px;
+  height: 7px;
+  border-radius: 0;
 }
 
 .change .button{
