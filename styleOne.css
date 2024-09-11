@@ -125,6 +125,7 @@ body {
 .littleMeWrap{
   float: right;
   margin: 30px;
+  max-height: 225px;
 }
 
 
@@ -201,6 +202,7 @@ body {
   background-color: #500000;
   color: white;
   border-bottom: 5px solid #000000;
+  width: 100%;
 }
 
 .AIbody {
@@ -248,4 +250,40 @@ body {
   text-align: center;
   padding: 10px;
   color: white;
+}
+
+.buttonStyle{
+  display: inline-block;
+}
+
+.fcStyle{
+  text-align: center; font-size: 15px;
+}
+
+.dStyle{
+  display: inline;
+}
+
+.pOneStyle{
+  margin-bottom: 100px;
+}
+
+.ulStyle{
+  padding-right: 30px;
+}
+
+.liStyle{
+  font-size: 20px;
+}
+
+.olStyle{
+  padding-right: 100px;
+}
+
+.lStyle{
+  text-align: left;
+}
+
+.turtleImg{
+  height: 400px;
 }

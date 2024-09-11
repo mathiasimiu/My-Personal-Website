@@ -126,6 +126,7 @@ body {
 .littleMeWrap{
   float: right;
   margin: 30px;
+  max-height: 225px;
 }
 
 
@@ -203,6 +204,7 @@ body {
   color: white;
   border-bottom: 5px solid #000000;
   display: none;
+  width: 100%;
 }
 
 .change .headerOne{
@@ -302,4 +304,40 @@ color: white;
 .change .AIheaderOne{
 display: inline-block;
 border-bottom: 0;
+}
+
+.buttonStyle{
+  display: inline-block;
+}
+
+.fcStyle{
+  text-align: center; font-size: 15px;
+}
+
+.dStyle{
+  display: inline;
+}
+
+.pOneStyle{
+  margin-bottom: 100px;
+}
+
+.ulStyle{
+  padding-right: 30px;
+}
+
+.liStyle{
+  font-size: 20px;
+}
+
+.olStyle{
+  padding-right: 100px;
+}
+
+.lStyle{
+  text-align: left;
+}
+
+.turtleImg{
+  height: 400px;
 }
