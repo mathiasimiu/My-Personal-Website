@@ -214,7 +214,7 @@ body {
     margin: 20px auto;
     padding: 20px;
     background-image:url(gold.avif);
-    background-size: 70vw 260vh;
+    background-size: 100% 100%;
     box-shadow: 0 0 300px rgba(0, 0, 0, 1);
 }
 
@@ -248,4 +248,3 @@ body {
     display: inline-block;
   }
 
-  
